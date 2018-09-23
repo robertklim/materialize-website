@@ -1,0 +1,11 @@
+header {
+    /* background: url('https://source.unsplash.com/ANJHXftvvJ8/4000x6000'); */
+    background: url('https://source.unsplash.com/lx9RWIg1Rdg/6194x4955');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.header-text {
+    margin-top: 35vh;
+}
