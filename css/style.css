@@ -6,6 +6,12 @@ header {
     min-height: 100vh;
 }
 
+nav {
+    z-index: 999;
+}
+
 .header-text {
-    margin-top: 35vh;
+    position: relative;
+    top: 40vh;
+    /* margin-top: 10vh; */
 }

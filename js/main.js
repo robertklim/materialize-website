@@ -47,3 +47,9 @@ document.addEventListener('DOMContentLoaded', function () {
     var options = {}
     var instances = M.FloatingActionButton.init(elems, options);
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    var elems = document.querySelectorAll('.pushpin');
+    var options = {}
+    var instances = M.Pushpin.init(elems, options);
+});
