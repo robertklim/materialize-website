@@ -37,3 +37,11 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     var instances = M.Tooltip.init(elems, options);
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    var elems = document.querySelectorAll('.scrollspy');
+    var options = {
+        disableWeekends: true
+    }
+    var instances = M.ScrollSpy.init(elems, options);
+});
