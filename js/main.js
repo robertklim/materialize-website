@@ -32,16 +32,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
 document.addEventListener('DOMContentLoaded', function () {
     var elems = document.querySelectorAll('.tooltipped');
-    var options = {
-        disableWeekends: true
-    }
+    var options = {}
     var instances = M.Tooltip.init(elems, options);
 });
 
 document.addEventListener('DOMContentLoaded', function () {
     var elems = document.querySelectorAll('.scrollspy');
-    var options = {
-        disableWeekends: true
-    }
+    var options = {}
     var instances = M.ScrollSpy.init(elems, options);
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    var elems = document.querySelectorAll('.fixed-action-btn');
+    var options = {}
+    var instances = M.FloatingActionButton.init(elems, options);
 });
